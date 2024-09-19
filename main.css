@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+*{box-sizing: border-box;}
+header{
+	width:100%;
+	background-color: #F4C5C5;
+	height: 75px;
+}
+#container{
+	width:1000px;
+	
+	margin: 0 auto;
+	background-color: #9ddce3;
+}
+article{
+	width:307px;
+	height: 150px;
+	background-color: #537954; 
+	float:left;
+	margin: 20px 0 20px 20px;
+}
+main{
+	width:960px;
+	height: 180px;
+	background-color: #537954;
+	clear: both;
+	margin: 0 20px 20px 20px
+}
+footer{
+	width:100%;
+	height: 20px;
+	background-color: #537954;
+}
+tr:nth-child(odd) {background-color: #f2f2f2;}
+table, th, td {
+  border: 1px solid;
+}
+ul{
+	list-style: circle
+}
